@@ -1,0 +1,47 @@
+/* Box-sizing border-box */
+* {box-sizing: border-box;}
+
+header {
+    text-align: center;
+    font-size:40px;
+}
+
+body{
+    background-color: rgb(199, 199, 200);
+}
+
+footer {
+
+    border-style: solid;
+}
+
+.flex-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:stretch;
+    align-content:space-around;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+p{
+    width:50%
+}
+
+.flex1 {
+}
+.half {
+    width:50%;
+}
+
+.flex3 {
+    width:50%;
+    height: 20%;
+}
+
+
