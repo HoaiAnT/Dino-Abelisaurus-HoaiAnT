@@ -2,8 +2,10 @@
 * {box-sizing: border-box;}
 
 header {
+    border-style: solid;
     text-align: center;
     font-size:40px;
+    background-color: rgb(177, 144, 196);
 }
 
 body{
@@ -24,24 +26,106 @@ footer {
     align-content:space-around;
 }
 
-.flex2 {
-    display: flex;
-    justify-content: space-around;
+img{ 
+    width:500px;
+    height: 300px;
 }
+[class^="flex-container"] {
+    display:flex;
+    justify-content:space-around;
+  }
 
+  .flex2 {
+    display:flex;
+    align-items:center;
+  }
 p{
-    width:50%
+    font-size: 20px;
+    align-items: center;
+
 }
 
-.flex1 {
-}
-.half {
-    width:50%;
+.be1 {
+    margin:0 auto;
 }
 
-.flex3 {
-    width:50%;
+table {
+    border-style: solid;
+    background-color:black;
+    margin:0 auto;
+    text-align: center;
+}
+
+.box1 {
+    margin:0 auto;
+    width: 70%;
+    text-align: center;
+   }
+
+.box2 {
+   width:45%;
+   height:24%;
+}
+   
+.box3 {
+   width:45%;
+   height:24%;
+}
+
+.box4 {
+    width: 32%;
+    height: 20%
+}
+
+.box5 {
+    width:20.5%;
+    height:20%;
+}
+
+.box6 {
+    width:32%;
     height: 20%;
 }
+
+.box7 {
+    width:45%;
+    height:24%;
+}
+.box8 {
+    width:40%;
+    height: 24%;
+}
+
+.box9 {
+    width: 40%;
+    height:24%;
+}
+
+.box10 {
+    width: 45%;
+    height: 24%;
+}
+.box11 {
+    width:40%;
+    height: 24%
+}
+.box12 {
+    width:40%;
+    height: 24%;
+}
+
+.box13 {
+    width: 40%;
+    height: 24%;
+}
+
+.box14 {
+    width: 45%;
+    height: 24%;
+}
+
+
+
+
 
 
