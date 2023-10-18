@@ -2,18 +2,25 @@
 * {box-sizing: border-box;}
 
 header {
+    padding-top:10px;
+    padding-bottom: 0;
     border-style: solid;
     text-align: center;
     font-size:40px;
-    background-color: rgb(177, 144, 196);
+    background-color: rgb(116, 181, 255);
+    margin-bottom:30px;
+    margin-left:40px;
+    margin-right: 20px;
 }
 
 body{
     background-color: rgb(199, 199, 200);
+    padding-bottom: 40px;
 }
 
 footer {
-
+    background-color: rgb(169, 217, 202);
+    padding-bottom: 20px;
     border-style: solid;
 }
 
@@ -26,10 +33,35 @@ footer {
     align-content:space-around;
 }
 
-img{ 
-    width:500px;
-    height: 300px;
+section{
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    margin-left:40px;
+    margin-right: 20px;
 }
+
+img{ 
+    width:450px;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: rgb(205, 123, 123);
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
 [class^="flex-container"] {
     display:flex;
     justify-content:space-around;
@@ -42,7 +74,7 @@ img{
 p{
     font-size: 20px;
     align-items: center;
-
+    text-align:start;
 }
 
 .be1 {
@@ -73,17 +105,17 @@ table {
 }
 
 .box4 {
-    width: 32%;
+    width: 20%;
     height: 20%
 }
 
 .box5 {
-    width:20.5%;
+    width:40%;
     height:20%;
 }
 
 .box6 {
-    width:32%;
+    width:20%;
     height: 20%;
 }
 
@@ -120,6 +152,11 @@ table {
 }
 
 .box14 {
+    width: 45%;
+    height: 24%;
+}
+
+.box20{
     width: 45%;
     height: 24%;
 }
